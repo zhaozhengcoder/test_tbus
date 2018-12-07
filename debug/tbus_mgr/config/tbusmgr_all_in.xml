@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="gbk" standalone="yes" ?>
+
+<TbusGCIM>
+<BussinessID>0</BussinessID>
+<AddrTemplet>8.8.8.8</AddrTemplet>
+<GCIMShmKey>2681</GCIMShmKey>
+
+<Channels>
+  <Priority>8</Priority>
+  <Address>2.6.8.1</Address>
+  <Address>2.6.8.2</Address>
+  <SendSize>102400000</SendSize>
+  <RecvSize>102400000</RecvSize>
+  <Desc>globalsvr and tcond</Desc>
+</Channels>
+
+<Channels>
+  <Priority>8</Priority>
+  <Address>2.6.8.2</Address>
+  <Address>2.6.8.4</Address>
+  <SendSize>1024000</SendSize>
+  <RecvSize>1024000</RecvSize>
+  <Desc>tcond and logicsvr</Desc>
+</Channels>
+
+<Channels>
+  <Priority>8</Priority>
+  <Address>2.6.8.1</Address>
+  <Address>2.6.8.3</Address>
+  <SendSize>1024000</SendSize>
+  <RecvSize>1024000</RecvSize>
+  <Desc>globalsvr and torm</Desc>
+</Channels>
+
+<Channels>
+  <Priority>8</Priority>
+  <Address>2.6.8.1</Address>
+  <Address>2.6.8.4</Address>
+  <SendSize>1024000</SendSize>
+  <RecvSize>1024000</RecvSize>
+  <Desc>globalsvr and logicsvr</Desc>
+</Channels>
+
+<Channels>
+  <Priority>8</Priority>
+  <Address>2.6.8.1</Address>
+  <Address>2.6.8.5</Address>
+  <SendSize>1024000</SendSize>
+  <RecvSize>1024000</RecvSize>
+  <Desc>globalsvr and logicsvr2</Desc>
+</Channels>
+
+<Channels>
+  <Priority>8</Priority>
+  <Address>2.6.8.2</Address>
+  <Address>2.6.8.5</Address>
+  <SendSize>1024000</SendSize>
+  <RecvSize>1024000</RecvSize>
+  <Desc>tcond and logicsvr2</Desc>
+</Channels>
+
+<Channels>
+  <Priority>8</Priority>
+  <Address>2.6.8.1</Address>
+  <Address>2.6.8.6</Address>
+  <SendSize>1024000</SendSize>
+  <RecvSize>1024000</RecvSize>
+  <Desc>globalsvr and logicsvr3</Desc>
+</Channels>
+
+<Channels>
+  <Priority>8</Priority>
+  <Address>2.6.8.2</Address>
+  <Address>2.6.8.6</Address>
+  <SendSize>1024000</SendSize>
+  <RecvSize>1024000</RecvSize>
+  <Desc>tcond and logicsvr3</Desc>
+</Channels>
+
+</TbusGCIM>
