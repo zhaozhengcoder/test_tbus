@@ -13,7 +13,10 @@
 #include <netinet/in.h>
 #include <arpa/inet.h>
 #include <stdlib.h>
-#include "../include/shm_head.h"
+#include "../common/shm_head.h"
+#include <unistd.h>                                                                                                       
+#include <getopt.h>
+
 using namespace std;
 
 struct CHANNELS

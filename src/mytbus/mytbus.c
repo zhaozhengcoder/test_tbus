@@ -4,11 +4,14 @@
 #include <sys/types.h>
 #include <string.h>
 #include <string>
-#include "../include/shm_head.h"
+#include "../common/shm_head.h"
 #include <netinet/in.h>
 #include <arpa/inet.h>
 #include <stdlib.h>
 #include <vector>
+#include <unistd.h>                                                                                                       
+#include <getopt.h>
+
 
 using namespace std;
 const int max_msg_len = 256;

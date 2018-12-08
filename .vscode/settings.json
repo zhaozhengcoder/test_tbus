@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "shm_head.h": "c",
+        "shm_head.h\u0000hm_head.h": "c",
+        "mytbus.h": "c",
+        "string": "cpp",
+        "xstring": "cpp"
+    }
+}
