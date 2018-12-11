@@ -4,6 +4,7 @@
         "shm_head.h\u0000hm_head.h": "c",
         "mytbus.h": "c",
         "string": "cpp",
-        "xstring": "cpp"
+        "xstring": "cpp",
+        "iostream": "c"
     }
 }
