@@ -82,6 +82,7 @@ bool case2()
             }
         }
     }
+    return true;
 }
 
 int main()
