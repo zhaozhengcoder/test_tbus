@@ -46,7 +46,7 @@ int main()
     example_recv_msg_api();
     timeval endtime = getCurrentTime();
 
-    printf("begin time sec : %d , and usec %d \n", begintime.tv_sec, begintime.tv_usec);
-    printf("end time   sec : %d , and usec %d \n", endtime.tv_sec, endtime.tv_usec);
+    printf("begin time sec : %ld , and usec %ld \n", begintime.tv_sec, begintime.tv_usec);
+    printf("end time   sec : %ld , and usec %ld \n", endtime.tv_sec, endtime.tv_usec);
     return 0;
 }

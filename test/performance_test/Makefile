@@ -1,4 +1,4 @@
-CXXFLAGS = -g 
+CXXFLAGS = -g -Wall
 
 performance_test:performance_test_case1.c ../../src/mytbus/mytbus.c
 	g++ performance_test_case1.c $(CXXFLAGS) -o  performance_test_case1  ../../src/mytbus/mytbus.c -lpthread -std=c++11

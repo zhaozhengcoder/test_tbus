@@ -23,6 +23,7 @@ int example_send_msg_api()
         mytbus_send(src_addr, dest_addr, msg, msg_len);
         send_msg_num--;
     }
+    return 0;
 }
 
 timeval getCurrentTime()
@@ -38,7 +39,7 @@ int main()
     example_send_msg_api();
     timeval endtime = getCurrentTime();
 
-    printf("begin time sec : %d , and usec %d \n",begintime.tv_sec,begintime.tv_usec);
-    printf("end time   sec : %d , and usec %d \n",endtime.tv_sec,endtime.tv_usec);
-    return 0;  
+    printf("begin time sec : %ld , and usec %ld \n",begintime.tv_sec,begintime.tv_usec);
+    printf("end time   sec : %ld , and usec %ld \n",endtime.tv_sec,endtime.tv_usec);
+    return 0; 
 }
